@@ -6,7 +6,7 @@ for host in sys.argv[1:]:
     for port in range(1,65535):
         try:
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            s.settimeout(0.0250)
+            s.settimeout(0.550)
             s.connect((host,port))
             s.close()
             print(host,"open",port)
