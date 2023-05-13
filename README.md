@@ -38,4 +38,4 @@ This code uses the MIT license.
 See the [LICENSE](LICENSE) file for more info.
 
 # VERSION
-`v1.1.0`
+`v1.1.2`
