@@ -1,4 +1,4 @@
-# ghetto tcp scanner
+# Pygmy TCP Port Scanner
 A joke project that poorly scans IP addresses. It uses several processes to distribute the work across many different cores.
 
 # Two different versions
@@ -19,7 +19,7 @@ A joke project that poorly scans IP addresses. It uses several processes to dist
 ```
 The only difference between the two versions is the latter will spawn 8 processes and distribute the workload. This version will read the list of IP addresses that you would like to scan from the file named `ips.txt`.
 
-### Chunga: Th help file
+### Chunga: The help file
 ```
 usage: ./bin/chunga -c COUNT -f FILE [-i] [-v] [-d] [-o FILE] [-h]
 Options:
